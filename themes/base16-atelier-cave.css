@@ -1,0 +1,22 @@
+/* Color Scheme atelier cave */
+/* by bram de haan (http://atelierbramdehaan.nl) */
+
+.mlight-bg { background: #19171c; }
+.mlight-strnum { color: #26232a; }
+.mlight-select::selection,
+.mlight-select::-moz-selection { background: #585260; }
+.mlight-comment { color: #655f6d; }
+.mlight-codepanel { background: #7e7887; }
+.mlight-fg { color: #8b8792; }
+.mlight-oper { color: #8b8792; }
+.mlight-var { color: #be4678; }
+.mlight-diff-d { color: #be4678; }
+.mlight-const { color: #aa573c; }
+.mlight-class { color: #a06e3b; }
+.mlight-str { color: #2a9292; }
+.mlight-diff-i { color: #2a9292; }
+.mlight-esc { color: #398bc6; }
+.mlight-func { color: #576ddb; }
+.mlight-kw { color: #955ae7; }
+.mlight-diff-c { color: #955ae7; }
+.mlight-embed { color: #bf40bf; }

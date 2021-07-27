@@ -1,0 +1,22 @@
+/* Color Scheme classic dark */
+/* by jason heeris (http://heeris.id.au) */
+
+.mlight-bg { background: #151515; }
+.mlight-strnum { color: #202020; }
+.mlight-select::selection,
+.mlight-select::-moz-selection { background: #303030; }
+.mlight-comment { color: #505050; }
+.mlight-codepanel { background: #b0b0b0; }
+.mlight-fg { color: #d0d0d0; }
+.mlight-oper { color: #d0d0d0; }
+.mlight-var { color: #ac4142; }
+.mlight-diff-d { color: #ac4142; }
+.mlight-const { color: #d28445; }
+.mlight-class { color: #f4bf75; }
+.mlight-str { color: #90a959; }
+.mlight-diff-i { color: #90a959; }
+.mlight-esc { color: #75b5aa; }
+.mlight-func { color: #6a9fb5; }
+.mlight-kw { color: #aa759f; }
+.mlight-diff-c { color: #aa759f; }
+.mlight-embed { color: #8f5536; }

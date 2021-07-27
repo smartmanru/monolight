@@ -1,0 +1,22 @@
+/* Color Scheme material lighter */
+/* by nate peterson */
+
+.mlight-bg { background: #fafafa; }
+.mlight-strnum { color: #e7eaec; }
+.mlight-select::selection,
+.mlight-select::-moz-selection { background: #cceae7; }
+.mlight-comment { color: #ccd7da; }
+.mlight-codepanel { background: #8796b0; }
+.mlight-fg { color: #80cbc4; }
+.mlight-oper { color: #80cbc4; }
+.mlight-var { color: #ff5370; }
+.mlight-diff-d { color: #ff5370; }
+.mlight-const { color: #f76d47; }
+.mlight-class { color: #ffb62c; }
+.mlight-str { color: #91b859; }
+.mlight-diff-i { color: #91b859; }
+.mlight-esc { color: #39adb5; }
+.mlight-func { color: #6182b8; }
+.mlight-kw { color: #7c4dff; }
+.mlight-diff-c { color: #7c4dff; }
+.mlight-embed { color: #e53935; }

@@ -1,0 +1,25 @@
+/*
+ * Monokai Spacegray Theme
+ * The file was written by DarkCat09
+ */
+
+.mlight-bg { background: #1a1e24; }
+.mlight-strnum { color: #898b8e; }
+.mlight-select::selection,
+.mlight-select::-moz-selection { background: #3c3c3c; }
+.mlight-comment { color: #808080; }
+.mlight-codepanel { background: #7e7887; }
+.mlight-fg { color: #f8f8f8; }
+.mlight-oper { color: #8b8792; }
+.mlight-var { color: #f92692; }
+.mlight-diff-d { color: #f92692; }
+.mlight-const { color: #ae81ff; }
+.mlight-class { color: #a6e22e; text-decoration: underline; }
+.mlight-annot { color: #95952b; }
+.mlight-str { color: #e6db74; }
+.mlight-diff-i { color: #a6e22e; }
+.mlight-esc { color: #ae81ff; }
+.mlight-func { color: #a6e22e; }
+.mlight-kw { color: #f92672; font-style: italic; }
+.mlight-diff-c { color: #e6db74; }
+.mlight-embed { color: #f8f8f8; }

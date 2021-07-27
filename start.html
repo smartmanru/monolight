@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>MonoLight: Getting Started</title>
+		<link rel="stylesheet" href="css/style.css" />
+		<script src="https://kit.fontawesome.com/a966b160a8.js" crossorigin="anonymous"></script>
+		<script src="js/loadtheme.js"></script>
+	</head>
+	<body class="dark">
+		<nav class="menu">
+			<ul class="top-menu">
+				<li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+				<li><a href="#features"><i class="far fa-file-alt"></i> Features Overview</a></li>
+				<li><a href="#"><i class="fas fa-cog"></i> Getting Started</a></li>
+				<li><a href="https://github.com/DarkCat09/monolight"><i class="fab fa-github"></i> GitHub</a></li>
+				<li>
+					<span id="theme-toggle" class="switch-btn"
+					onmouseover="showHint(event, 'theme-toggle-hint');"
+					onmousemove="showHint(event, 'theme-toggle-hint');"
+					onmouseleave="hideHint(event, 'theme-toggle-hint');"
+					onclick="toggleTheme(event);">
+					</span>
+					<div class="hint" id="theme-toggle-hint">
+						<span class="hint-content">Toggle Light Theme</span>
+					</div>
+				</li>
+			</ul>
+		</nav>
+		<div class="main-content">
+			<div id="start">
+				<h1>Syntax <span id="light-text">Highlighter</span></h1>
+				<h3>Paste your code and get result!</h3>
+				<div class="code-options-wrapper">
+					<textarea class="codearea" id="usercode" cols="65" rows="12"
+					onmouseover="showHint(event, 'usercode-hint');"
+					onmousemove="showHint(event, 'usercode-hint');"
+					onmouseleave="hideHint(event, 'usercode-hint');"></textarea>
+					<div class="hint" id="usercode-hint">
+						<span class="hint-content">Paste your code here</span>
+					</div><br />
+					<div class="code-options">
+						<div class="option">
+							<legend>Choose a theme:</legend>
+							<select id="theme-option">
+								<option value="monolight.css" selected="selected">MonoLight&Dark</option>
+								<optgroup label="Monokai">
+									<option value="monokai.css">Monokai Pro</option>
+									<option value="monokai-spacegray.css">Monokai Spacegray</option>
+								</optgroup>
+								<optgroup label="JetBrains">
+									<option value="intellij.css">IntelliJ IDEA Dark</option>
+									<option value="intellij2.css">IntelliJ IDEA Light</option>
+								</optgroup>
+								<optgroup label="Base16">
+									<option value="base16-classic.css">Base16 Classic Dark</option>
+									<option value="base16-classic.css">Base16 Classic Light</option>
+									<option value="base16-porple.css">Base16 Porple</option>
+									<option value="base16-nord.css">Base16 Nord</option>
+									<option value="base16-nova.css">Base16 Nova</option>
+									<option value="base16-onedark.css">Base16 OneDark</option>
+									<option value="base16-github.css">Base16 GitHub</option>
+								</optgroup>
+								<optgroup label="Base16 Material Design by ntpeters">
+									<option value="base16-material.css">Base16 Material</option>
+									<option value="base16-material-palenight.css">Base16 Material PaleNight</option>
+									<option value="base16-material-darker.css">Base 16 Material Darker</option>
+									<option value="base16-material-lighter.css">Base 16 Material Lighter</option>
+								</optgroup>
+								<optgroup label="Base16 by atelierbram">
+									<option value="base16-cave.css">Base16 Atelier Cave</option>
+									<option value="base16-cave.css">Base16 Atelier Cave Light</option>
+									<option value="base16-dune.css">Base16 Atelier Dune</option>
+									<option value="base16-dune.css">Base16 Atelier Dune Light</option>
+									<option value="base16-forest.css">Base16 Atelier Forest</option>
+									<option value="base16-forest.css">Base16 Atelier Forest Light</option>
+									<option value="base16-lakeside.css">Base16 Atelier Lakeside</option>
+									<option value="base16-lakeside.css">Base16 Atelier Lakeside Light</option>
+								</optgroup>
+							</select>
+						</div>
+						<div class="option">
+							<legend>Choose a font:</legend>
+							<select id="font-option">
+								<option value="'JetBrains Mono', monospace" selected="selected">JetBrains Mono</option>
+								<option value="'Consolas'">Consolas</option>
+								<option value="'Lucida Console'">Lucida Console</option>
+								<option value="'Courier'">Courier</option>
+								<option value="'Courier New'">Courier New</option>
+								<option value="monospace">Default Monospace</option>
+							</select>
+						</div>
+						<div class="option">
+							<legend>Choose the programming language:</legend>
+							<select id="language-option">
+								<option value="arduino">Arduino</option>
+								<option value="bash">Bash</option>
+								<option value="bbcode">BBCode</option>
+								<option value="cpp">C++</option>
+								<option value="cs">C#</option>
+								<option value="css">CSS</option>
+								<option value="cmd">Cmd (*.bat)</option>
+								<option value="diff">Diff</option>
+								<option value="xml">HTML, XML</option>
+								<option value="json">JSON</option>
+								<option value="java">Java</option>
+								<option value="javascript">JavaScript</option>
+								<option value="md">Markdown</option>
+								<option value="mobilebasic">MobileBASIC</option>
+								<option value="php">PHP</option>
+								<option value="plain">Plaintext</option>
+								<option value="powershell">PowerShell</option>
+								<option value="python">Python</option>
+								<option value="pythonrepl">Python REPL</option>
+							</select>
+						</div>
+						<div class="option">
+							<legend>Choose an output language:</legend>
+							<select id="export-option">
+								<option value="html">HTML</option>
+								<option value="bb">BB</option>
+							</select>
+						</div>
+						<div class="option">
+							<legend>Customize appearance:</legend>
+							<div class="radio-field" id="bg-radio">
+								<!-- Use custom background -->
+								<div class="radio-wrapper">
+									<input type="radio" class="radio" id="custombg-option" style="display: none;" />
+									<span id="custombg-radio" class="radio-btn"
+									onclick="switchRadioButton('custombg-radio');"></span>
+									<label for="custombg-option" onclick="switchRadioButton('custombg-radio');">
+										Use custom background
+									</label>
+								</div>
+								<input type="text" id="bgcolor-option"
+								onmouseover="showHint(event, 'bgcolor-hint');"
+								onmousemove="showHint(event, 'bgcolor-hint');"
+								onmouseleave="hideHint(event, 'bgcolor-hint');"
+								onkeypress="checkKey(event);" />
+								<div class="hint" id="bgcolor-hint">
+									<span class="hint-content">Enter background color in HEX format</span>
+								</div>
+								<!-- Use theme background -->
+								<div class="radio-wrapper">
+									<input type="radio" class="radio" id="themebg-option" checked="checked" style="display: none;" />
+									<span id="themebg-radio" class="radio-btn radio-on"
+									onclick="switchRadioButton('themebg-radio');"></span>
+									<label for="themebg-option" onclick="switchRadioButton('themebg-radio')">
+										Use theme background
+									</label>
+								</div>
+								<!-- Use transparent background -->
+								<div class="radio-wrapper">
+									<input type="radio" class="radio" id="transpbg-option" style="display: none;" />
+									<span id="transpbg-radio" class="radio-btn"
+									onclick="switchRadioButton('transpbg-radio');"></span>
+									<label for="transpbg-option" onclick="switchRadioButton('transpbg-radio')">
+										Use transparent background
+									</label>
+								</div>
+							</div>
+							<div class="toggle-wrapper">
+								<input type="checkbox" id="scroll-option" style="display: none;" />
+								<span id="scroll-toggle" class="switch-btn" onclick="toggle('scroll-toggle');"></span>
+								<label for="scroll-option" onclick="toggle('scroll-toggle');">Show scroll</label>
+							</div>
+							<div class="toggle-wrapper">
+								<input type="checkbox" id="border-option" value="1" style="display: none;" />
+								<span id="border-toggle" class="switch-btn switch-on" onclick="toggle('border-toggle');"></span>
+								<label for="border-option" onclick="toggle('border-toggle');">Add border</label>
+							</div>
+							<legend>Border radius:</legend>
+							<input type="range" min="0" max="100" value="5" id="bdradius-option" oninput="bdrsChange(event);" />
+							<span id="bdradius-text">5</span>
+						</div>
+						<div class="option">
+							<legend>Customize controls:</legend>
+							<div class="toggle-wrapper">
+								<input type="checkbox" id="ctrlcopy-option" value="1" style="display: none;" />
+								<span id="ctrlcopy-toggle" class="switch-btn switch-on" onclick="toggle('ctrlcopy-toggle');"></span>
+								<label for="ctrlcopy-option" onclick="toggle('ctrlcopy-toggle');">"Copy code"</label>
+							</div>
+							<div class="toggle-wrapper">
+								<input type="checkbox" id="ctrlwin-option" style="display: none;" />
+								<span id="ctrlwin-toggle" class="switch-btn" onclick="toggle('ctrlwin-toggle');"></span>
+								<label for="ctrlwin-option" onclick="toggle('ctrlwin-toggle');">"Open in new window"</label>
+							</div>
+							<div class="toggle-wrapper">
+								<input type="checkbox" id="ctrlline-option" value="1" style="display: none;" />
+								<span id="ctrlline-toggle" class="switch-btn switch-on" onclick="toggle('ctrlline-toggle');"></span>
+								<label for="ctrlline-option" onclick="toggle('ctrlline-toggle');">"Toggle line numbers"</label>
+							</div>
+							<div class="toggle-wrapper">
+								<input type="checkbox" id="ctrlwrap-option" style="display: none;" />
+								<span id="ctrlwrap-toggle" class="switch-btn" onclick="toggle('ctrlwrap-toggle');"></span>
+								<label for="ctrlwrap-option" onclick="toggle('ctrlwrap-toggle');">"Toggle line wrap"</label>
+							</div>
+							<div class="toggle-wrapper">
+								<input type="checkbox" id="ctrlcons-option" style="display: none;" />
+								<span id="ctrlcons-toggle" class="switch-btn" onclick="toggle('ctrlcons-toggle');"></span>
+								<label for="ctrlcons-option" onclick="toggle('ctrlcons-toggle');">
+									"Toggle console prompt"<br />
+									(only for Python REPL and Bash)
+								</label>
+							</div>
+						</div>
+						<div class="option">
+							<legend>Output type:</legend>
+							<select id="type-option"
+							onmouseover="showHint(event, 'type-hint');"
+							onmousemove="showHint(event, 'type-hint');"
+							onmouseleave="hideHint(event, 'type-hint');">
+								<option value="webimport" selected="selected">Import CSS and JavaScript</option>
+								<option value="download">Download CSS and JavaScript</option>
+								<option value="allinone">All-In-One</option>
+								<option value="standalone">Standalone</option>
+							</select>
+							<div class="hint" id="type-hint">
+								<span class="hint-content">
+									All-in-one: CSS and JS are embedded into &lt;style&gt; and &lt;script&gt;
+									<br />
+									Standalone: CSS is in the style attribute, no JS
+								</span>
+							</div>
+						</div>
+						<div class="option">
+							<div class="start-buttons">
+								<a href="javascript:void(0);" onclick="monolight();" class="button main-button">Generate</a>
+								<a href="javascript:void(0);" onclick="copyGenerated();" class="button">Copy</a>
+							</div>
+						</div>
+						<div class="option">
+							<legend>Preview:</legend>
+						</div>
+						<div class="option">
+							<legend>Code:</legend>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="js/script.js"></script>
+		<script src="js/ui.js"></script>
+	</body>
+</html>

@@ -1,0 +1,22 @@
+/* Color Scheme porple */
+/* by niek den breeje (https://github.com/auditemarlow) */
+
+.mlight-bg { background: #292c36; }
+.mlight-strnum { color: #333344; }
+.mlight-select::selection,
+.mlight-select::-moz-selection { background: #474160; }
+.mlight-comment { color: #65568a; }
+.mlight-codepanel { background: #b8b8b8; }
+.mlight-fg { color: #d8d8d8; }
+.mlight-oper { color: #d8d8d8; }
+.mlight-var { color: #f84547; }
+.mlight-diff-d { color: #f84547; }
+.mlight-const { color: #d28e5d; }
+.mlight-class { color: #efa16b; }
+.mlight-str { color: #95c76f; }
+.mlight-diff-i { color: #95c76f; }
+.mlight-esc { color: #64878f; }
+.mlight-func { color: #8485ce; }
+.mlight-kw { color: #b74989; }
+.mlight-diff-c { color: #b74989; }
+.mlight-embed { color: #986841; }

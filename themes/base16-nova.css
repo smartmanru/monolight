@@ -1,0 +1,22 @@
+/* Color Scheme nova */
+/* by george essig (https://github.com/gessig), trevor d. miller (https://trevordmiller.com) */
+
+.mlight-bg { background: #3c4c55; }
+.mlight-strnum { color: #556873; }
+.mlight-select::selection,
+.mlight-select::-moz-selection { background: #6a7d89; }
+.mlight-comment { color: #899ba6; }
+.mlight-codepanel { background: #899ba6; }
+.mlight-fg { color: #c5d4dd; }
+.mlight-oper { color: #c5d4dd; }
+.mlight-var { color: #83afe5; }
+.mlight-diff-d { color: #83afe5; }
+.mlight-const { color: #7fc1ca; }
+.mlight-class { color: #a8ce93; }
+.mlight-str { color: #7fc1ca; }
+.mlight-diff-i { color: #7fc1ca; }
+.mlight-esc { color: #f2c38f; }
+.mlight-func { color: #83afe5; }
+.mlight-kw { color: #9a93e1; }
+.mlight-diff-c { color: #9a93e1; }
+.mlight-embed { color: #f2c38f; }

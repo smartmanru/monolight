@@ -1,0 +1,32 @@
+/*
+ * IntelliJ IDEA Dark Theme
+ * The file was written by DarkCat09
+ */
+
+.mlight-bg { background: #2b2b2b; }
+.mlight-strnum { color: #606366; }
+.mlight-select::selection,
+.mlight-select::-moz-selection { background: #585260; }
+.mlight-comment { color: #808080; }
+.mlight-todo { color: #a8c023; }
+.mlight-codepanel { background: #7e7887; }
+.mlight-fg { color: #a9b7c6; }
+.mlight-oper { color: #a9b7c6; }
+.mlight-cmd { color: #c57633; }
+.mlight-var { color: #a9b7c6; }
+.mlight-diff-d { background: #656e76; }
+.mlight-const { color: #9876aa; font-style: italic; }
+.mlight-num { color: #6897bb; }
+.mlight-class { color: #a9b7c6; }
+.mlight-annot { color: #bbb529; }
+.mlight-str { color: #6a8759; }
+.mlight-diff-i { background: #447152; }
+.mlight-esc { color: #cc7832; }
+.mlight-func { color: #ffc66d; }
+.mlight-delim { color: #cc7832; }
+.mlight-kw { color: #cc7832; }
+.mlight-diff-c { background: #385570; }
+.mlight-embed { background: #232525; }
+.mlight-err { color: #ff6b68; }
+.mlight-warn { color: #bbb; }
+.mlight-shebang { font-weight: 700; }

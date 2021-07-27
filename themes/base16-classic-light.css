@@ -1,0 +1,22 @@
+/* Color Scheme classic light */
+/* by jason heeris (http://heeris.id.au) */
+
+.mlight-bg { background: #f5f5f5; }
+.mlight-strnum { color: #e0e0e0; }
+.mlight-select::selection,
+.mlight-select::-moz-selection { background: #d0d0d0; }
+.mlight-comment { color: #b0b0b0; }
+.mlight-codepanel { background: #505050; }
+.mlight-fg { color: #303030; }
+.mlight-oper { color: #303030; }
+.mlight-var { color: #ac4142; }
+.mlight-diff-d { color: #ac4142; }
+.mlight-const { color: #d28445; }
+.mlight-class { color: #f4bf75; }
+.mlight-str { color: #90a959; }
+.mlight-diff-i { color: #90a959; }
+.mlight-esc { color: #75b5aa; }
+.mlight-func { color: #6a9fb5; }
+.mlight-kw { color: #aa759f; }
+.mlight-diff-c { color: #aa759f; }
+.mlight-embed { color: #8f5536; }

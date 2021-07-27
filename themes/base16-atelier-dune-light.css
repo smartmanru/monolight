@@ -1,0 +1,22 @@
+/* Color Scheme atelier dune light */
+/* by bram de haan (http://atelierbramdehaan.nl) */
+
+.mlight-bg { background: #fefbec; }
+.mlight-strnum { color: #e8e4cf; }
+.mlight-select::selection,
+.mlight-select::-moz-selection { background: #a6a28c; }
+.mlight-comment { color: #999580; }
+.mlight-codepanel { background: #7d7a68; }
+.mlight-fg { color: #6e6b5e; }
+.mlight-oper { color: #6e6b5e; }
+.mlight-var { color: #d73737; }
+.mlight-diff-d { color: #d73737; }
+.mlight-const { color: #b65611; }
+.mlight-class { color: #ae9513; }
+.mlight-str { color: #60ac39; }
+.mlight-diff-i { color: #60ac39; }
+.mlight-esc { color: #1fad83; }
+.mlight-func { color: #6684e1; }
+.mlight-kw { color: #b854d4; }
+.mlight-diff-c { color: #b854d4; }
+.mlight-embed { color: #d43552; }

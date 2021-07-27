@@ -1,0 +1,26 @@
+/*
+ * Monolight Theme
+ * by DarkCat09
+ */
+
+.mlight-bg { background: #1a1e24; }
+.mlight-strnum { color: #dadbd9; }
+.mlight-select::selection,
+.mlight-select::-moz-selection { background: #3c3c3c; }
+.mlight-comment { color: #758080; }
+.mlight-codepanel { background: #7e7887; }
+.mlight-fg { color: #ddd; }
+.mlight-oper { color: #8b8792; }
+.mlight-var { color: #bf7160; }
+.mlight-diff-d { color: #bf7160; }
+.mlight-const { color: #766bbf; }
+.mlight-num { color: #5f8ead; }
+.mlight-class { color: #ddd; }
+.mlight-annot { color: #b8a954; }
+.mlight-str { color: #b8a954; }
+.mlight-diff-i { color: #6aab60; }
+.mlight-esc { color: #766bbf; }
+.mlight-func { color: #6aab60; }
+.mlight-kw { color: #5f8ead; font-weight: 700; }
+.mlight-diff-c { color: #b8a954; }
+.mlight-embed { color: #766bbf; }

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Monolight: Code Highlighter with Monospace Font</title>
+		<link rel="stylesheet" href="css/style.css" />
+		<script src="https://kit.fontawesome.com/a966b160a8.js" crossorigin="anonymous"></script>
+		<script src="js/loadtheme.js"></script>
+	</head>
+	<body class="dark">
+		<nav class="menu">
+			<ul class="top-menu">
+				<li><a href="#"><i class="fas fa-home"></i> Home</a></li>
+				<li><a href="#features"><i class="far fa-file-alt"></i> Features Overview</a></li>
+				<li><a href="start.html"><i class="fas fa-cog"></i> Getting Started</a></li>
+				<li><a href="https://github.com/DarkCat09/monolight"><i class="fab fa-github"></i> GitHub</a></li>
+				<li>
+					<span id="theme-toggle" class="switch-btn"
+					onmouseover="showHint(event);" onmousemove="showHint(event);"
+					onmouseleave="hideHint(event);"
+					onclick="toggleTheme(event);">
+					</span>
+					<div class="hint">
+						<span class="hint-content">Toggle Light Theme</span>
+					</div>
+				</li>
+			</ul>
+		</nav>
+		<div class="main-content">
+			<div id="home">
+				<h1>Mono<span id="light-text">Light</span></h1>
+				<h3>Fully customizable syntax highliter</h3>
+				<div class="home-buttons">
+					<a href="start.html" class="button main-button">Start</a>
+					<a href="#features" class="button">Features</a>
+				</div>
+			</div>
+		</div>
+		<script src="js/ui.js"></script>
+	</body>
+</html>

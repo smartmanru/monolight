@@ -1,0 +1,26 @@
+/*
+ * Monokai Pro Theme
+ * The file was written by DarkCat09
+ */
+
+.mlight-bg { background: #2d2a2e; }
+.mlight-strnum { color: #dadbd9; }
+.mlight-select::selection,
+.mlight-select::-moz-selection { background: #585260; }
+.mlight-comment { color: #555254; }
+.mlight-codepanel { background: #7e7887; }
+.mlight-fg { color: #fdf9f3; }
+.mlight-oper { color: #ff6188; }
+.mlight-brck { color: #908e8f; }
+.mlight-var { color: #fcfcfa; }
+.mlight-diff-d { color: #ff6188; }
+.mlight-const { color: #ab9df2; }
+.mlight-class { color: #78dce8; text-decoration: underline; }
+.mlight-annot { color: #95952b; }
+.mlight-str { color: #ffd866; }
+.mlight-diff-i { color: #ffd866; }
+.mlight-esc { color: #ab9df2; }
+.mlight-func { color: #a9dc76; }
+.mlight-kw { color: #78dce8; font-style: italic; }
+.mlight-diff-c { color: #78dce8; }
+.mlight-embed { color: #fdf9f3; }

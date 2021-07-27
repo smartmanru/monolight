@@ -1,0 +1,22 @@
+/* Color Scheme material palenight */
+/* by nate peterson */
+
+.mlight-bg { background: #292d3e; }
+.mlight-strnum { color: #444267; }
+.mlight-select::selection,
+.mlight-select::-moz-selection { background: #32374d; }
+.mlight-comment { color: #676e95; }
+.mlight-codepanel { background: #8796b0; }
+.mlight-fg { color: #959dcb; }
+.mlight-oper { color: #959dcb; }
+.mlight-var { color: #f07178; }
+.mlight-diff-d { color: #f07178; }
+.mlight-const { color: #f78c6c; }
+.mlight-class { color: #ffcb6b; }
+.mlight-str { color: #c3e88d; }
+.mlight-diff-i { color: #c3e88d; }
+.mlight-esc { color: #89ddff; }
+.mlight-func { color: #82aaff; }
+.mlight-kw { color: #c792ea; }
+.mlight-diff-c { color: #c792ea; }
+.mlight-embed { color: #ff5370; }

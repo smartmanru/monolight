@@ -1,0 +1,22 @@
+/* Color Scheme material */
+/* by nate peterson */
+
+.mlight-bg { background: #263238; }
+.mlight-strnum { color: #2e3c43; }
+.mlight-select::selection,
+.mlight-select::-moz-selection { background: #314549; }
+.mlight-comment { color: #546e7a; }
+.mlight-codepanel { background: #b2ccd6; }
+.mlight-fg { color: #eeffff; }
+.mlight-oper { color: #eeffff; }
+.mlight-var { color: #f07178; }
+.mlight-diff-d { color: #f07178; }
+.mlight-const { color: #f78c6c; }
+.mlight-class { color: #ffcb6b; }
+.mlight-str { color: #c3e88d; }
+.mlight-diff-i { color: #c3e88d; }
+.mlight-esc { color: #89ddff; }
+.mlight-func { color: #82aaff; }
+.mlight-kw { color: #c792ea; }
+.mlight-diff-c { color: #c792ea; }
+.mlight-embed { color: #ff5370; }

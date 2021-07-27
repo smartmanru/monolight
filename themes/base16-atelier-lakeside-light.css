@@ -1,0 +1,22 @@
+/* Color Scheme atelier lakeside light */
+/* by bram de haan (http://atelierbramdehaan.nl) */
+
+.mlight-bg { background: #ebf8ff; }
+.mlight-strnum { color: #c1e4f6; }
+.mlight-select::selection,
+.mlight-select::-moz-selection { background: #7ea2b4; }
+.mlight-comment { color: #7195a8; }
+.mlight-codepanel { background: #5a7b8c; }
+.mlight-fg { color: #516d7b; }
+.mlight-oper { color: #516d7b; }
+.mlight-var { color: #d22d72; }
+.mlight-diff-d { color: #d22d72; }
+.mlight-const { color: #935c25; }
+.mlight-class { color: #8a8a0f; }
+.mlight-str { color: #568c3b; }
+.mlight-diff-i { color: #568c3b; }
+.mlight-esc { color: #2d8f6f; }
+.mlight-func { color: #257fad; }
+.mlight-kw { color: #6b6bb8; }
+.mlight-diff-c { color: #6b6bb8; }
+.mlight-embed { color: #b72dd2; }

@@ -1,0 +1,218 @@
+@import url('jetbrainsmono.css');
+
+body {
+	margin: 0;
+	padding: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	font-family: 'JetBrains Mono', monospace;
+}
+body.dark  { background-color: #333; color: #fff; }
+body.light { background-color: #ddd; color: #000; }
+
+.menu {
+	margin: 0;
+	padding: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+	position: fixed;
+	background-color: inherit;
+	box-shadow: 0px 8px 10px 0px #000;
+}
+.top-menu {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: start;
+	align-items: center;
+}
+.top-menu li {
+	display: inline-block;
+	padding: 8px;
+	transition: color 0.4s ease-out 0s;
+}
+.top-menu li:hover {
+	color: #5581c9;
+}
+.top-menu li > a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.hint {
+	position: absolute;
+	pointer-events: none;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.4);
+	border-radius: 5px;
+	padding: 10px;
+	opacity: 0;
+	transition: opacity 0.1s ease-out 0s;
+	backdrop-filter: blur(5px);
+	z-index: 799;
+}
+.hint-content {
+	color: #fff;
+	z-index: 800;
+}
+
+.main-content {
+	margin-top: 4em;
+}
+#home {
+	margin-top: 7em;
+	margin-left: 2em;
+}
+#start {
+	margin-left: 1em;
+}
+
+h1 {
+	font-size: 3em;
+	margin: 0;
+}
+h3 {
+	font-size: 1.5em;
+	font-weight: 400;
+	font-style: italic;
+	margin: 0;
+}
+#light-text {
+	text-shadow: #5581c9 1px 0 10px;
+}
+
+.home-buttons {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-top: 10px;
+}
+
+.button {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 1.1em;
+	padding: 5px 10px 5px 10px;
+	margin-right: 15px;
+	border-radius: 10px;
+	color: inherit;
+	transition: box-shadow 0.4s ease 0s;
+}
+.button:hover {
+	box-shadow: 0 0 10px #5581c9;
+}
+body.dark  .button { border: 3px solid #ddd; }
+body.light .button { border: 3px solid #000; }
+body.dark  .main-button { background-color: #ddd; color: #000; }
+body.light .main-button { border: 3px solid #000; }
+
+body.dark input:not([type="range"]),
+body.dark select,
+body.dark textarea {
+	border: 1px solid #aaa;
+}
+body.light input:not([type="color"]),
+body.light select,
+body.light textarea {
+	border: 1px solid #222;
+}
+input:not([type="color"]), select, textarea {
+	outline: none;
+	border-radius: 10px;
+	font-family: 'JetBrains Mono', monospace;
+	font-size: 1.15em;
+	font-weight: 300;
+	color: inherit;
+	background-color: inherit;
+}
+select, label { cursor: pointer; }
+select {
+	background-color: #ddd;
+	color: #333;
+}
+label {
+	margin: 5px;
+}
+textarea.codearea { font-size: 0.9em; }
+
+.code-options {
+	display: inline-grid;
+	grid-template-columns: auto auto;
+	font-size: 1em;
+}
+.option { margin: 5px; }
+
+.toggle-wrapper, .radio-wrapper {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin: 5px 0 5px 0;
+}
+
+.start-buttons {
+	margin-top: 1.1em;
+}
+
+.switch-btn {
+	display: inline-block;
+	width: 3.375rem; 
+	height: 1.875rem; 
+	border-radius: 1.19rem; 
+	background: #bfbfbf; 
+	margin: 0;
+	padding: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	border: none;
+	cursor: pointer;
+	position: relative;
+	transition-duration: 300ms; 
+}
+.switch-btn::after {
+    content: "";
+    height: 1.5rem; 
+    width: 1.5rem; 
+    border-radius: 1.063rem;
+    background: #fff;
+    top: 0.188rem;
+    left: 0.188rem;
+    transition-duration: 300ms;
+    position: absolute;
+}
+.switch-on {
+    background: linear-gradient(to bottom, #36527f 0%,#3652c9 35%,#5581c9 100%);
+}
+.switch-on::after {
+    left: 1.75rem;
+}
+
+.radio-btn {
+	display: inline-block;
+	width: 1em;
+	height: 1em;
+	background-color: inherit;
+	border: 1px solid #aaa;
+	border-radius: 50%;
+	cursor: pointer;
+}
+.radio-on {
+	background: linear-gradient(to bottom, #36527f 0%,#3652c9 35%,#5581c9 100%);
+}
+.radio-on::after {
+	content: "";
+	position: absolute;
+	width: 0.5em;
+	height: 0.5em;
+	margin-top: 4px;
+	margin-left: 4px;
+	background-color: #fff;
+	border-radius: 50%;
+}

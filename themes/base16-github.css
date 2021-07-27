@@ -1,0 +1,22 @@
+/* Color Scheme github */
+/* by defman21 */
+
+.mlight-bg { background: #ffffff; }
+.mlight-strnum { color: #f5f5f5; }
+.mlight-select::selection,
+.mlight-select::-moz-selection { background: #c8c8fa; }
+.mlight-comment { color: #969896; }
+.mlight-codepanel { background: #e8e8e8; }
+.mlight-fg { color: #333333; }
+.mlight-oper { color: #333333; }
+.mlight-var { color: #ed6a43; }
+.mlight-diff-d { color: #ed6a43; }
+.mlight-const { color: #0086b3; }
+.mlight-class { color: #795da3; }
+.mlight-str { color: #183691; }
+.mlight-diff-i { color: #183691; }
+.mlight-esc { color: #183691; }
+.mlight-func { color: #795da3; }
+.mlight-kw { color: #a71d5d; }
+.mlight-diff-c { color: #a71d5d; }
+.mlight-embed { color: #333333; }

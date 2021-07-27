@@ -1,0 +1,22 @@
+/* Color Scheme atelier forest light */
+/* by bram de haan (http://atelierbramdehaan.nl) */
+
+.mlight-bg { background: #f1efee; }
+.mlight-strnum { color: #e6e2e0; }
+.mlight-select::selection,
+.mlight-select::-moz-selection { background: #a8a19f; }
+.mlight-comment { color: #9c9491; }
+.mlight-codepanel { background: #766e6b; }
+.mlight-fg { color: #68615e; }
+.mlight-oper { color: #68615e; }
+.mlight-var { color: #f22c40; }
+.mlight-diff-d { color: #f22c40; }
+.mlight-const { color: #df5320; }
+.mlight-class { color: #c38418; }
+.mlight-str { color: #7b9726; }
+.mlight-diff-i { color: #7b9726; }
+.mlight-esc { color: #3d97b8; }
+.mlight-func { color: #407ee7; }
+.mlight-kw { color: #6666ea; }
+.mlight-diff-c { color: #6666ea; }
+.mlight-embed { color: #c33ff3; }

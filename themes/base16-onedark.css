@@ -1,0 +1,22 @@
+/* Color Scheme onedark */
+/* by lalit magant (http://github.com/tilal6991) */
+
+.mlight-bg { background: #282c34; }
+.mlight-strnum { color: #353b45; }
+.mlight-select::selection,
+.mlight-select::-moz-selection { background: #3e4451; }
+.mlight-comment { color: #545862; }
+.mlight-codepanel { background: #565c64; }
+.mlight-fg { color: #abb2bf; }
+.mlight-oper { color: #abb2bf; }
+.mlight-var { color: #e06c75; }
+.mlight-diff-d { color: #e06c75; }
+.mlight-const { color: #d19a66; }
+.mlight-class { color: #e5c07b; }
+.mlight-str { color: #98c379; }
+.mlight-diff-i { color: #98c379; }
+.mlight-esc { color: #56b6c2; }
+.mlight-func { color: #61afef; }
+.mlight-kw { color: #c678dd; }
+.mlight-diff-c { color: #c678dd; }
+.mlight-embed { color: #be5046; }
